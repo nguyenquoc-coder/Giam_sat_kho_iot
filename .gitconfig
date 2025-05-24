@@ -1,0 +1,10 @@
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = nguyentrungquoc267
+	email = nguyentrungquoc267@gmail.com
+	password = Quoc2962004@
+	username = sirya
